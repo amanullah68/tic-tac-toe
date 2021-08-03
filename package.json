@@ -1,0 +1,19 @@
+{
+  "name": "aman_ullah_test",
+  "version": "1.0.0",
+  "description": "tic tac toe game ",
+  "main": "server.js",
+  "scripts": {
+    "start-server": "node server.js",
+    "start-client": "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aman Ullah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "readcommand": "^0.4.0",
+    "socket.io": "^4.0.0",
+    "socket.io-client": "^4.1.3"
+  }
+}
